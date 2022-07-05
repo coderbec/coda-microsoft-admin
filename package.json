@@ -1,0 +1,45 @@
+{
+  "name": "sysadmin-pack",
+  "version": "1.0.0",
+  "description": "pack for managing user permissions in microsoft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx patch-package"
+  },
+  "author": "Bec Martin",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^2.0.5",
+    "@codahq/packs-sdk": "^1.0.1",
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "dotenv": "^16.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.22.0",
+    "@types/chai": "^4.3.1",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/isomorphic-fetch": "^0.0.36",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.45",
+    "@types/readline-sync": "^1.4.4",
+    "@types/sinon": "^10.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/experimental-utils": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.18.0",
+    "eslint-plugin-ban": "^1.6.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-local": "^1.0.0",
+    "eslint-plugin-prefer-let": "^3.0.1",
+    "json-schema": "^0.4.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
